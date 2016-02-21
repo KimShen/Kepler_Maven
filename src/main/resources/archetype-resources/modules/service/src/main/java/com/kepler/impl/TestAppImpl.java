@@ -1,9 +1,9 @@
 package com.kepler.impl;
 
 import com.kepler.TestApp;
-import com.kepler.annotation.Service;
+import com.kepler.annotation.Autowired;
 
-@Service(version = "0.0.1-${artifactId}", autowired = true)
+@Autowired
 public class TestAppImpl implements TestApp {
 
 	public String test(String kepler) throws Exception {
