@@ -1,0 +1,21 @@
+<archetype-descriptor name="kepler">
+	<fileSets>
+		<fileSet filtered="true">
+			<directory>modules</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+	<requiredProperties>
+		<requiredProperty key="zookeeper">
+			<defaultValue>127.0.0.1</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="kepler-verison">
+			<defaultValue>0.0.6-SNAPSHOT</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="nexus-address">
+			<defaultValue>10.128.8.31:8081</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
+</archetype-descriptor>
